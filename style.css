@@ -1,0 +1,95 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 20px;
+	background-color: #141418; /* Dark gray background */
+	color: #ffffff; /* White text */
+}
+
+h1 {
+    text-align: center;
+}
+
+#teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pokemonSlot {
+    background-color: #141418;
+	color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table
+{
+	width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	text-transform: capitalize;
+	font-size: 25px;
+	background-color: #141418;
+	color: #ffffff;
+	text-align:center;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+	width: 200px;
+	height: 25px;
+}
+
+.suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #141418;
+	color: #ffffff;
+    z-index: 1000;
+}
+
+.suggestions div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background-color: #141418;
+	color: #ffffff;
+}
